@@ -10,6 +10,8 @@ import paho.mqtt.client as mqtt
 import json
 import requests  # Se usa para enviar notificaciones por ntfy.sh
 
+#curl -v -X POST http://thingsboard.cloud/api/v1/uNMhPwu0dBVqEU6ck6Md/telemetry --header Content-Type:application/json --data "{temperature:25}"
+
 # Crear clase heredada
 class SGP30_Raw(SGP30):
     def get_air_quality_raw(self):
@@ -18,8 +20,8 @@ class SGP30_Raw(SGP30):
 
 sgp30 = SGP30_Raw()
 
-THINGSBOARD_HOST = 'IP NUMBERS GO HERE'
-ACCESS_TOKEN = 'TOKEN GOES HERE'
+THINGSBOARD_HOST = '2982a670-334a-11f0-8983-6766228fa881' #'IP NUMBERS GO HERE'
+ACCESS_TOKEN = 'uNMhPwu0dBVqEU6ck6Md' #'TOKEN GOES HERE'
 INTERVAL = 10
 
 # ntfy.sh ##############################
