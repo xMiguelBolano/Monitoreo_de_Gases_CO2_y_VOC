@@ -1,0 +1,14 @@
+[Unit]
+Description=CO2 VOC Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/sgp30-python/examples/co2_sgp30.py
+WorkingDirectory=/home/pi/sgp30-python/examples
+Restart=always
+RestartSec=10
+User=pi
+
+[Install]
+WantedBy=multi-user.target
