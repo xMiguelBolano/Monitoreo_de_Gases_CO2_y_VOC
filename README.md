@@ -47,6 +47,6 @@ git clone https://github.com/pimoroni/sgp30-python
 - Notificaciones de alertas
 ![Drizzle](media/not1.jpg)
 
-## Video de la prueba del proyecto
+## Video de funcionamiento del proyecto
 [![Monitoreo Inteligente De Gases (Proyecto de Arquitectura)](https://img.youtube.com/vi/MM3IGMTiQrE/0.jpg)](https://www.youtube.com/watch?v=MM3IGMTiQrE)
 
