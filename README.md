@@ -3,9 +3,8 @@ Un sistema de monitoreo inteligente de calidad del aire que captura datos de di�
 
 Además, se generan alertas automáticas y notificaciones push a dispositivos móviles cuando se detectan niveles elevados.
 
-## Autores
--     Jaime Stiven Caballero Rodríguez / 2221892
--     Miguel Angel Bolaño López / 2221884
+## Autor
+-     Miguel Bolaño López
 
 ## Objetivos
  - Monitorear niveles de CO₂ y VOC.
